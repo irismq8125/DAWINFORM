@@ -75,7 +75,17 @@ namespace PapaChicken
 
         private void toolStripLabel4_Click(object sender, EventArgs e)
         {
-            
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "SanPham")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+            SanPham l = new SanPham();
+            l.MdiParent = this;
+            l.Show();
         }
     }
 }

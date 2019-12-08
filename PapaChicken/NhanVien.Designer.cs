@@ -573,7 +573,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1586, 800);
+            this.ClientSize = new System.Drawing.Size(1600, 900);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -584,7 +584,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "NhanVien";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NhanVien";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
